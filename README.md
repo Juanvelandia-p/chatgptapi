@@ -4,7 +4,7 @@ Juan Sebastian Velandia
 
 # ChatGPT API Proxy - ARSW
 
-Este proyecto es una implementación en Java Spring Boot de un proxy para la API de ChatGPT, que optimiza las consultas mediante cacheo y validación de mensajes.
+Este proyecto es una implementación en Java Spring Boot de un proxy para la API de ChatGPT, que optimiza las consultas mediante cacheo y validación de mensajes haciendo uso del patron de diseño proxy.
 
 ## Características
 
@@ -16,6 +16,9 @@ Este proyecto es una implementación en Java Spring Boot de un proxy para la API
 ## Diagramas
 Para el servicio basico, el diagrama de clases es el siguiente:
 ![alt text](resources/1.png)
+
+Para la optimizacion de consultas se uso el patron de diseño proxy:
+![alt text](resources/2.png)
 ## Estructura principal
 
 - `service/OpenAIService.java`: Servicio que realiza la consulta directa a la API de OpenAI.
