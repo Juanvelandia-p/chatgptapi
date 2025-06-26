@@ -52,8 +52,12 @@ public String chat(@RequestParam String mensaje) {
 
 - Mensaje no nulo.
 - Longitud mínima de 3 caracteres.
+
 - Rechazo de mensajes que sean solo números (con o sin espacios).
 - Rechazo de mensajes que sean solo símbolos o espacios.
+
+Por ejemplo:
+![alt text](resources/3.png)
 
 ## Ejecución
 
